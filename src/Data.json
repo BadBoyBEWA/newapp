@@ -1,0 +1,96 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "image": "./Img/product-1.jpg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in a Pretty Gown",
+        "original_price": 120.00,
+        "price": 120.00,
+        "discounted_price": 80.00,
+        "description": "A beautiful gown perfect for special occasions. Originally priced at $120.00, now available for $80.00.",
+        "quantity": 1
+      },
+      {
+        "id": "2",
+        "image": "./Img/product-2.jpg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in a Pretty Gown",
+        "price": 150.00,
+        "discounted_price": 110.00,
+        "description": "Elegant and timeless, this gown is an excellent addition to any wardrobe. Priced at $110.00.",
+        "quantity":"1"
+      },
+      {
+        "id": "3",
+        "image": "./Img/product-3.jpg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in a Pretty Gown",
+        "price": 180.00,
+        "discounted_price": 130.00,
+        "description": "Chic and stylish, this gown is designed to turn heads at any event. Available for $130.00.",
+        "quantity":"1"
+      },
+      {
+        "id": "4",
+        "image": "./Img/product-4.jpg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in a Gown",
+        "price": 150.00,
+        "discounted_price": 110.00,
+        "description": "A versatile gown suitable for both casual and formal events. Priced at $110.00.",
+        "quantity":"1"
+      },
+      {
+        "id": "5",
+        "image": "./Img/product-5.jpg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Sleek Gown",
+        "price": 150.00,
+        "discounted_price": 110.00,
+        "description": "Affordable and fashionable, this sleek gown is perfect for a night out. Available for $110.00.",
+        "quantity":"1"
+      },
+      {
+        "id": "6",
+        "image": "./Img/product-6.jpg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in a Pretty Gown",
+        "price": 150.00,
+        "discounted_price": 110.00,
+        "description": "A stunning gown that combines elegance with modern style. Priced at $110.00.",
+        "quantity":"1"
+      },
+      {
+        "id": "7",
+        "image": "./Img/Jersey Strapless Corset Gown- Emerald.jpeg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in Strapless Corset Gown",
+        "price": 150.00,
+        "discounted_price": 110.00,
+        "description": "This strapless corset gown offers a perfect fit and a flattering silhouette. Available for $110.00.",
+        "quantity":"1"
+      },
+      {
+        "id": "8",
+        "image": "./Img/Buy Green Georgette Embroidery Thread Round Crop Top And Palazzo Set For Women by Gaurav Katta Online at Aza Fashions_.jpeg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in a Green Georgette Crop Top and Plazzo",
+        "price": 150.00,
+        "discounted_price": 110.00,
+        "description": "A vibrant green georgette crop top and plazzo set, ideal for festive occasions. Priced at $150.00.",
+        "quantity":"1"
+      },
+      {
+        "id": "9",
+        "image": "./Img/Fitness Apparel.jpeg",
+        "alt": "Woman in a Sleek Gown",
+        "title": "Woman in a Fitness Apparel",
+        "price": 150.00,
+        "discounted_price": 110.00,
+        "description": "Stylish and comfortable fitness apparel designed for active women. Available for $110.00.",
+        "quantity":"1"
+      }
+    ]
+  }
+  
