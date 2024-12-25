@@ -7,6 +7,7 @@ import Productdetails from './Shop/Productdetails.jsx';
 import Cart from './Shop/Cart.jsx';
 import Navbar from './Shop/Navbar.jsx';
 import Footer from './Shop/Footer.jsx';
+import Home from './components/Home.jsx'
 //import Data from './Shop/Data.jsx';
 
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar/>
       <div className="App">
         <Routes>
+          <Route path='/' element={<Home/>} />
           <Route path='/shop' element={<Productdetails/>} />
           <Route path='/cart' element={<Cart/>} />
         </Routes>

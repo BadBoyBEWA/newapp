@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Blog({pics, subText, date}) {
+export default function HomeBlog({pics, subText, date}) {
   return (
     
                 <div className="blogCard">
