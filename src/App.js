@@ -8,6 +8,7 @@ import Cart from './Shop/Cart.jsx';
 import Navbar from './Shop/Navbar.jsx';
 import Footer from './Shop/Footer.jsx';
 //import Data from './Shop/Data.jsx';
+import Contact from './Contact.jsx';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/shop' element={<Productdetails/>} />
           <Route path='/cart' element={<Cart/>} />
+          <Route path='/Contact' element={<Contact />} />
         </Routes>
       </div>
       <Footer/>
@@ -27,3 +29,4 @@ function App() {
 }
 
 export default App;
+

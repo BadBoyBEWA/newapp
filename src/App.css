@@ -5,7 +5,7 @@
 
 }
 .titleBar{
-    background-image: url(C:\Users\thewa\Desktop\reactapp\newapp\src\Img\bg_6.jpg.webp);
+    background-image: url('./Img/bg_6.jpg.webp');
     object-fit: cover;
     background-position:  center center;
     background-size: cover;
@@ -289,4 +289,81 @@
 .warning {
     text-align: center;
     margin-top: 60px;
+}
+
+/* Contact Us */
+.contact{
+    background-image: url('./Img/bg_6.jpg.webp');
+    object-fit: cover;
+    background-position:  center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-location{
+    background-color: #F6F6F6;
+    opacity: 97%;
+    height:110vh;
+    padding:40px 0;
+}
+.contact-form{
+   width:500px;
+   height:70vh;
+   background-color: white; 
+   box-shadow: 10px 10px 10px 10px(rgba(0,0,0,0.3));
+   padding: 45px 20px 0 20px;
+}
+input{
+    width:450px;
+    height: 6vh;
+    padding-left: 6px;
+}
+::placeholder{
+    color:black;
+}
+.messagebox{
+    height: 20vh;
+}
+.cntbtn{
+    width:200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #e199af;
+    border: 2px solid #e199af;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+.cntbtn:hover{
+    background-color: #fff;
+    color:#e199af;
+}
+.contact-box{
+    padding: 32px 15px ;
+    width: 250px;
+    height:14vh;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px(rgba(0,0,0,0.3));
+}
+.contact-boxes{
+    display: flex;
+    gap:60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width:320px) and (max-width:600px) {
+    .contact-location{
+        height:170vh;
+        background-color: #F6F6F6;
+        opacity: 97%;
+        padding:40px 0;
+        width: 100%;
+    }
+    .contact-boxes{
+        justify-content: space-evenly;
+    }
+    .contact{
+        width: 100%;
+    }
 }
