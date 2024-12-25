@@ -1,4 +1,5 @@
 import React from 'react'
+import Map from './Map'
 export default function Contact() {
   return (
     <>
@@ -10,6 +11,8 @@ export default function Contact() {
      </section>
 
     <section className='contact-location'>
+      <section className='contact-flex'>
+        <Map />
    <div className="contact-form">
     <div className="contact-form-details">
       <input type="text" placeholder='Your Name' />
@@ -23,6 +26,7 @@ export default function Contact() {
       <input type="button" value="Send Message" className='cntbtn' />
     </div>
    </div>
+   </section>
    <br /><br /><br /><br />
    <section className="contact-boxes">
       <div className="contact-box">

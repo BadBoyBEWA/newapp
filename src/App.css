@@ -390,10 +390,16 @@ input{
     justify-content: center;
     flex-wrap: wrap;
 }
-
-@media (min-width:320px) and (max-width:600px) {
+.contact-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 180px;
+}
+@media (min-width:320px) and (max-width:529px) {
     .contact-location{
-        height:170vh;
+        height:275vh;
         background-color: #F6F6F6;
         opacity: 97%;
         padding:40px 0;
@@ -407,6 +413,15 @@ input{
     }
 }
 
+@media (min-width:530px) and (max-width:700px) {
+  .contact-location{
+    height: 250vh;
+    background-color: #F6F6F6;
+    opacity: 97%;
+    padding: 40px 0;
+    width: 100%;
+}
+}
   
 
 /* HERO SECTION */
