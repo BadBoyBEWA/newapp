@@ -10,7 +10,7 @@ import Footer from './Shop/Footer.jsx';
 import Home from './components/Home.jsx'
 import AboutUs from './About/AboutUs.jsx';
 //import Data from './Shop/Data.jsx';
-import Contact from './Contact.jsx';
+import Contact from './Contact/Contact.jsx';
 
 
 
