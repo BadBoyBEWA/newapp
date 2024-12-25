@@ -1,12 +1,7 @@
-import React, { useContext } from 'react';
-import "../App.css"
-import { Link } from 'react-router-dom'
+import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { CartContext } from '../Features/Contextprovider';
-
 
 export default function Navbar() {
-    const {cart} = useContext(CartContext)
   return (
     <div className='navContainer'>
         <div className="navWrapper">
@@ -17,11 +12,11 @@ export default function Navbar() {
             <div className="navRight">
                 <ul>
                     <li> <a href="/">Home</a> </li>
-                    <li> <Link to="/shop">Shop</Link> </li>
-                    <li> <a href="/about">About</a> </li>
+                    <li> <a href="/">Shop</a> </li>
+                    <li> <a href="/">About</a> </li>
                     <li> <a href="/">Blog</a> </li>
-                    <li> <Link to ="/Contact" href="/">Contact</Link> </li>
-                    <li> <Link to='/cart'><i class="bi bi-cart3"></i>[{cart.length}]</Link></li>
+                    <li> <a href="/">Contact</a> </li>
+                    <li> <a href="/"><i class="bi bi-cart3"></i> </a> </li>
                 </ul>
             </div>
         </div>
