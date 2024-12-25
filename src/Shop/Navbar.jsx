@@ -18,7 +18,7 @@ export default function Navbar() {
                 <ul>
                     <li> <a href="/">Home</a> </li>
                     <li> <Link to="/shop">Shop</Link> </li>
-                    <li> <a href="/">About</a> </li>
+                    <li> <a href="/about">About</a> </li>
                     <li> <a href="/">Blog</a> </li>
                     <li> <a href="/">Contact</a> </li>
                     <li> <Link to='/cart'><i class="bi bi-cart3"></i>[{cart.length}]</Link></li>

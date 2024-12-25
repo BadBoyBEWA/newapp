@@ -7,6 +7,7 @@ export default function Footer() {
     <div className='news'>
       <div className="newletter">
         <div className="newsLetterWrapper">
+          <h1>Subscribe</h1>
           <h3>Subscribe to our Newsletter</h3>
 
           <div className="emailBox">
