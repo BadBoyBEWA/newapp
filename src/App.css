@@ -1506,7 +1506,7 @@ gap: 180px;
 .tps-shpng{
   display: flex;
   align-items: baseline;
-  margin-left: 6%;
+  margin-left: 0%;
   gap: 12px;
 }
 .amount {
