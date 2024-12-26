@@ -5,8 +5,6 @@
 
 }
 .titleBar{
-    background-image: url('./Img/bg_6.jpg.webp');
-
     background-image: url("./Img/bg_6.jpg.webp");
     object-fit: cover;
     background-position:  center center;
@@ -243,7 +241,6 @@
   }
   
   .footerNavigate {
-    border: 1px solid black;
     background-color: #F8F9FA;
   }
   
@@ -573,7 +570,6 @@ text-align: center;
 }
 
 .footerNavigate {
-  border: 1px solid black;
   background-color: #F8F9FA;
 }
 
