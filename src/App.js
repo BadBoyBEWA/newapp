@@ -23,11 +23,11 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<AboutUs/>} />
           <Route path='/shop' element={<Productdetails/>} />
+          <Route path='/blog' element={ <BlogSingle />} />
           <Route path='/cart' element={<Cart/>} />
           <Route path='/Contact' element={<Contact />} />
         </Routes>
       </div>
-      <BlogSingle />
       <Footer/>
     </BrowserRouter>
   );

@@ -1,4 +1,4 @@
-import { useEffect,useState } from "react";
+import { useState } from "react";
 import "../App.css"
 import React from 'react'
 import Shop from "./Shop.jsx"
