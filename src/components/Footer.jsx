@@ -1,5 +1,4 @@
 import React from 'react';
-import "../App.css"
 import { Twitter, Facebook, Instagram, GeoAlt, Telephone, Envelope }from 'react-bootstrap-icons';
 
 export default function Footer() {
@@ -68,3 +67,27 @@ export default function Footer() {
     </div>
   )
 }
+
+
+// import { Twitter, Facebook, Instagram, GeoAlt } from 'react-bootstrap-icons';
+
+// function SocialAndLocation() {
+//   return (
+//     <div className="socialLinks">
+//       <a href="https://twitter.com">
+//         <Twitter />
+//       </a>
+//       <a href="https://facebook.com">
+//         <Facebook />
+//       </a>
+//       <a href="https://instagram.com">
+//         <Instagram />
+//       </a>
+//       <div className="location">
+//         <GeoAlt /> Your Location
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default SocialAndLocation;

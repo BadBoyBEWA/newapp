@@ -1,4 +1,4 @@
-import img from "./Img/bg_6.jpg.webp"
+import img from './Img/bg_6.jpg.webp'
 import img1 from "./Img/product-1.jpg"
 import img2 from "./Img/product-2.jpg"
 import img3 from "./Img/product-3.jpg"
