@@ -290,3 +290,27 @@
     text-align: center;
     margin-top: 60px;
 }
+.main>.detail{
+    width: 80%;
+    margin: auto;
+}
+.main>.detail>.description{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: left;
+    line-height: 24px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+.main>.btn-sm{
+    padding: 30px;
+}
+.main>.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.main>.buttons>.rounded{
+    padding: 30px;
+
+}
