@@ -1330,9 +1330,6 @@ gap: 180px;
       width: 100%;
       height: 450px;
     }
-  
-  
-  
   }
   
   @media (max-width: 1024px) {
@@ -1434,9 +1431,8 @@ gap: 180px;
     .services {
       height: 80vh;
     }
-    
-  
   }
+
   /* Blog Single */
 .tps-shpng{
   width: 100%;
@@ -2173,4 +2169,8 @@ gap: 180px;
   .services {
     height: 80vh;
   }
+  
+
 }
+
+

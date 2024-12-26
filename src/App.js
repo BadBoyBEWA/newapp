@@ -12,7 +12,9 @@ import AboutUs from './About/AboutUs.jsx';
 //import Data from './Shop/Data.jsx';
 import Contact from './Contact/Contact.jsx';
 
-import BlogSingle from './BlogSingle.jsx';
+// import BlogSingle from './BlogSingle.jsx';
+import Blogg from './blog/Blogg.jsx';
+import BlogSingle from './blog/BlogSingle.jsx';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<AboutUs/>} />
           <Route path='/shop' element={<Productdetails/>} />
-          <Route path='/blog' element={ <BlogSingle />} />
+          <Route path='/blog' element={<Blogg />} />
+          <Route path='/blog/:id' element={<BlogSingle />} /> 
+          <Route path='/cart' element={<Cart/>} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/cart' element={<Cart/>} />
         </Routes>
