@@ -12,7 +12,7 @@ import AboutUs from './About/AboutUs.jsx';
 //import Data from './Shop/Data.jsx';
 import Contact from './Contact/Contact.jsx';
 
-
+import BlogSingle from './BlogSingle.jsx';
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
           <Route path='/Contact' element={<Contact />} />
         </Routes>
       </div>
+      <BlogSingle />
       <Footer/>
     </BrowserRouter>
   );
