@@ -17,6 +17,7 @@ export default function Navbar() {
                     <li> <a href="/">Blog</a> </li>
                     <li> <a href="/">Contact</a> </li>
                     <li> <a href="/"><i class="bi bi-cart3"></i> </a> </li>
+                    <li><a href="/">Blog Single</a></li>
                 </ul>
             </div>
         </div>
