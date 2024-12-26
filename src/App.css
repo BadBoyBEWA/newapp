@@ -328,6 +328,7 @@
     text-align: center;
     margin-top: 60px;
 
+
 }
 
 /* Contact Us */
@@ -1119,5 +1120,21 @@ input{
     
   
   }
-  
-  
+  /* Blog Single */
+.eight-ps{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.eight-ps input{
+  box-shadow: 10px 10px 10px 10px(#808080);
+}
+.eight-ps  li{
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+}
+.eight-ps p{
+ color: #e199af;
+}
+

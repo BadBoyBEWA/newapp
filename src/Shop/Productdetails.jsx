@@ -8,15 +8,15 @@ import Detail from "./Data.jsx"
 //import { useParams } from "react-router-dom"
 
 export default function Productdetails() {
-  const [product, setProduct] = useState(Data.products);
+  const [products, setProduct] = useState(Data.products);
   
   return (
     <div className="main">
       <Shop/>
       <div className="items">
       {
-        product.map(p => (
-          <Detail products ={p}/>
+        products.map(p => (
+          <Detail product ={p}/>
         )) 
       }
       </div>
