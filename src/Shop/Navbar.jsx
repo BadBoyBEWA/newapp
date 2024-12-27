@@ -16,10 +16,10 @@ export default function Navbar() {
 
             <div className="navRight">
                 <ul>
-                    <li> <a href="/">Home</a> </li>
+                    <li> <Link href="/">Home</Link> </li>
                     <li> <Link to="/shop">Shop</Link> </li>
-                    <li> <a href="/about">About</a> </li>
-                    <li> <Link to ="/blog" href="/">Blog</Link> </li>
+                    <li> < Link href="/about">About</Link> </li>
+                    <li> <Link to href="/">Blog</Link> </li>
                     <li> <Link to ="/Contact" href="/">Contact</Link> </li>
                     <li> <Link to='/cart'><i class="bi bi-cart3"></i>[{cart.length}]</Link></li>
                 </ul>
