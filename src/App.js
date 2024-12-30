@@ -9,10 +9,10 @@ import Navbar from './Shop/Navbar.jsx';
 import Footer from './Shop/Footer.jsx';
 import Home from './components/Home.jsx'
 import AboutUs from './About/AboutUs.jsx';
-//import Data from './Shop/Data.jsx';
 import Contact from './Contact/Contact.jsx';
 
-// import BlogSingle from './BlogSingle.jsx';
+// import Blogg from './blog/Blogg.jsx';
+// import BlogSingle from './blog/BlogSingle.jsx';
 import Blogg from './blog/Blogg.jsx';
 import BlogSingle from './blog/BlogSingle.jsx';
 
